@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log-in</title>
+    <style>
+        body{
+            background-image: url("https://as2.ftcdn.net/v2/jpg/01/21/32/43/1000_F_121324332_W1bUs7v0tW7pcbrAR3e6190pFJe0laQ8.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        div{
+            background-color: rgba(164, 192, 217, 0.801);
+            margin-top: 30px;
+            margin-left: 400px;
+            border-top-left-radius: 20%;
+            border-bottom-right-radius: 20%;
+        }
+        .log_in{
+            height: 290px;
+            width: 500px;
+            margin-top: 132px;
+            border: 10px solid rgba(38, 59, 68, 0.824);
+        }
+        h1{
+            color: rgb(4, 4, 24);
+            margin-left: 200px;
+        }
+        .login-items{
+            margin-left: 50px;
+        }
+        #log-in{
+            font-size: 15px;
+            padding-right: 200px;
+            padding-bottom: 3px;
+            padding-top: 3px;
+        }
+        #pass{
+            font-size: 15px;
+            padding-right: 200px;
+            padding-bottom: 3px;
+            padding-top: 3px;
+        }
+        .login{
+            background-color: rgb(95, 132, 160);
+            font-size: 15px;
+            margin-left: 150px;
+            margin-top: 10px;
+            padding-left: 20px;
+            padding-right: 20px;        
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .reset{
+            background-color: rgb(95, 132, 160);
+            font-size: 15px;
+            padding-left: 20px;
+            padding-right: 20px;        
+            padding-top: 10px;
+            padding-bottom: 10px;
+        } 
+        .reset:hover{
+            scale: 1.1;
+        }
+        .login:hover{
+            scale: 1.1;
+        }
+    </style>
+</head>
+<body>
+    <div class="log_in">
+        <form action="index.html">
+            <h1><u>Login In</u></h1><hr>
+        <div class="login-items">       
+            <input type="text" name="" id="log-in" placeholder="Phone or Email" required>
+            <br><br>  
+            <input type="password" name="" id="pass" placeholder="Enter your password" required>
+            <br><br>
+
+        </div>
+        <hr>
+            <button type="submit" class="login"><b>LOGIN</b>
+            </button>
+            <button type="reset" class="reset"><b>CANCEL</b>
+            </button>
+        </form>
+    </div>
+</body>
+</html>
