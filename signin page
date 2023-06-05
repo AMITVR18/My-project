@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign-in</title>
+    <style>
+        body{
+            background-image: url("https://www.bluselection.com/rails/active_storage/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBLzRMSUE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--b2d7fe76ed5fecb70824e128b51f8ab58fe27347/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCam9VWTI5dFltbHVaVjl2Y0hScGIyNXpld2c2QzNKbGMybDZaVWtpRHpJd01EQjRNVEF3TUY0R09nWkZWRG9NWjNKaGRtbDBlVWtpQzBObGJuUmxjZ1k3QjFRNkNXTnliM0JKSWhJeU1EQXdlREV3TURBck1Dc3dCanNIVkE9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--ae9c14c80fbb841b8667347f542e4bd907a0e287/writing%20a%20great%20cv.png");
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+        div{
+            background-color: rgba(164, 217, 199, 0.413);
+            margin-top: 45px;
+            margin-left: 400px;
+            border-top-right-radius: 20%;
+            border-bottom-left-radius: 20%;
+        }
+        .signin{
+            height: 450px;
+            width: 500px;
+            border: 10px solid rgba(10, 83, 32, 0.824);
+        }
+        h1{
+            color: rgb(7, 41, 5);
+            margin-left: 200px;
+        }
+        .signin-items{
+            margin-left: 50px;
+        }
+        #fname{
+            font-size: 15px;
+            /* padding-right: 50px; */
+            padding-bottom: 3px;
+            padding-top: 3px;
+        }
+        #lname{
+            font-size: 15px;
+            padding-bottom: 3px;
+            padding-top: 3px;
+            margin-left: 6px;
+        }
+        #email{
+            font-size: 15px;
+            padding-right: 200px;
+            padding-bottom: 3px;
+            padding-top: 3px;
+        }
+        #phno{
+            font-size: 15px;
+            padding-right: 200px;
+            padding-bottom: 3px;
+            padding-top: 3px;
+        }
+        #pass{
+            font-size: 15px;
+            padding-right: 200px;
+            padding-bottom: 3px;
+            padding-top: 3px;
+        }
+        .login{
+            background-color: darkgreen;
+            font-size: 15px;
+            margin-left: 268px;
+            margin-top: 25px;
+            padding-left: 20px;
+            padding-right: 20px;        
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .reset{
+            background-color: darkgreen;
+            font-size: 15px;
+            margin-left: 0;
+            margin-top: 25px;
+            padding-left: 20px;
+            padding-right: 20px;        
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .reset:hover{
+            scale: 1.1;
+        }
+        .login:hover{
+            scale: 1.1;
+        }
+    </style>
+</head>
+<body>
+    <div class="signin">
+        <h1><u>Sign In</u></h1><hr>
+        <div class="signin-items">       
+           <form action="login.html">
+            <input type="text" name="" id="fname" placeholder="FIRST NAME" required>
+            <input type="text" name="" id="lname" placeholder="LAST NAME" >
+            <br><br>  
+            <input type="email" name="" id="email" placeholder="EMAIL">
+            <br><br>
+            <input type="text" name="" id="phno" placeholder="PHONE" required>
+            <br><br>
+            <input type="password" name="" id="pass" placeholder="Enter your password" required>
+            <br><br>
+
+            <label for="gen"><b>Gender :</b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="male"><b>Male</b></label><input type="radio" name="gen" id="male">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="Female"><b>Female</b></label><input type="radio" name="gen" id="Female">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="Others"><b>Others</b></label><input type="radio" name="gen" id="Others">    
+            <br><br>            
+        </div>
+        <hr>
+            <button type="submit" class="login"><b>SIGNIN</b>
+            </button>
+            <button type="reset" class="reset"><b>CANCEL</b>
+            </button>
+           </form>
+    </div>
+</body>
+</html>
